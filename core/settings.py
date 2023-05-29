@@ -43,6 +43,10 @@ LOCAL_APPS = [
     'users',
 ]
 
+THIRD_APPS = [
+    
+]
+
 INSTALLED_APPS = BASE_APPS + LOCAL_APPS + THIRD_APPS
 
 MIDDLEWARE = [

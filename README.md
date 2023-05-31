@@ -18,7 +18,7 @@ BlueWallet Backend es el componente de backend de la aplicación BlueWallet, una
 - PostgreSQL
 - Redis
 
-## Configuración y ejecución
+## Configuración y ejecución (Not Available Yet)
 
 1. Clona este repositorio: `git clone https://github.com/CtrlCri/BlueWallet.git`
 2. Ve al directorio del proyecto: `cd bluewallet-backend`

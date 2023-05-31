@@ -1,16 +1,16 @@
-# BlueWallet Backend
+# BlueWallet Backend (Not Available Yet)
 
-BlueWallet Backend es el componente de backend de la aplicación BlueWallet, una plataforma de billetera virtual desarrollada en Django Rest Framework. Proporciona una API-REST para la gestión de billeteras virtuales y operaciones financieras en fondos Money-Market.
+BlueWallet Backend is the backend component of the BlueWallet application, a virtual wallet platform developed in Django Rest Framework. It provides a robust API-REST for managing virtual wallets and conducting financial operations in Money-Market funds.
 
-## Características
+## Features
 
-- API-REST robusta y escalable.
-- Integración con PostgreSQL para almacenamiento de datos.
-- Integración con Redis para gestión de caché y rendimiento óptimo.
-- Implementación de seguridad mediante autenticación y autorización de usuarios.
-- Pruebas unitarias y de integración para garantizar la calidad del código.
+- Robust and scalable API-REST.
+- Integration with PostgreSQL for data storage.
+- Integration with Redis for cache management and optimal performance.
+- Implementation of security measures through user authentication and authorization.
+- Unit and integration testing to ensure code quality.
 
-## Requisitos del sistema
+## System Requirements
 
 - Python 3.x
 - Django 3.x
@@ -18,20 +18,20 @@ BlueWallet Backend es el componente de backend de la aplicación BlueWallet, una
 - PostgreSQL
 - Redis
 
-## Configuración y ejecución (Not Available Yet)
+## Setup and Execution
 
-1. Clona este repositorio: `git clone https://github.com/CtrlCri/BlueWallet.git`
-2. Ve al directorio del proyecto: `cd bluewallet-backend`
-3. Crea y activa un entorno virtual: `python3 -m venv venv && source venv/bin/activate`
-4. Instala las dependencias: `pip install -r requirements.txt`
-5. Configura las variables de entorno en el archivo `.env` según tus preferencias.
-6. Realiza las migraciones de la base de datos: `python manage.py migrate`
-7. Inicia el servidor de desarrollo: `python manage.py runserver`
+1. Clone this repository: `git clone https://github.com/CtrlCri/BlueWallet.git`
+2. Navigate to the project directory: `cd bluewallet-backend`
+3. Create and activate a virtual environment: `python3 -m venv venv && source venv/bin/activate`
+4. Install the dependencies: `pip install -r requirements.txt`
+5. Configure the environment variables in the `.env` file according to your preferences.
+6. Apply the database migrations: `python manage.py migrate`
+7. Start the development server: `python manage.py runserver`
 
-## Contribuciones
+## Contributions
 
-¡Las contribuciones son bienvenidas! Si deseas contribuir a este proyecto, por favor crea un pull request explicando los cambios propuestos.
+Contributions are welcome! If you'd like to contribute to this project, please create a pull request explaining your proposed changes.
 
-## Licencia
+## License
 
-Este proyecto se encuentra bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+This project is licensed under the MIT License. See the LICENSE file for more details.
